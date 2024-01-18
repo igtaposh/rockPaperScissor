@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section id="score">
+      <p>
+        Computer : <span id="com-score">0</span>
+      </p>
+      <p>
+        You : <span id="you-score">0</span>
+      </p>
+    </section>
+    <section id="images">
+      <button>
+        <i class="far fa-hand-rock"></i>
+      </button>
+    
+      <button>
+        <i class="far fa-hand-paper"></i>
+      </button>
+      
+      <button>
+        <i class="far fa-hand-scissors"></i>
+      </button>
+    </section>
+    <section id="result">
+      <p>You choose <span id="you-res"></span></p>
+      <p>Computer choose <span id="com-res"></span></p>
+      <p id="cal-res"></p>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
